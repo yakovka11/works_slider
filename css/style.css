@@ -1,0 +1,38 @@
+
+.container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.slider-container {
+    position: relative;
+}
+.slider {
+}
+
+.slider img {
+    margin-left: 45px;
+}
+.next, .prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    background-color: transparent;
+    font-size: 40px;
+}
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
+}
